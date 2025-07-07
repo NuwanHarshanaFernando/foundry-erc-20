@@ -104,6 +104,18 @@ https://github.com/transmissions11/solmate
 
 Then do remappings in foundry.toml
 
+Get the Makefile from https://github.com/Cyfrin/foundry-erc20-cu/blob/main/Makefile
+
+```shell
+$ make anvil
+```
+Create another terminal and run deploy command
+
+```shell
+$ make deploy
+```
+Now the Token has been depoyed to the anvil chain
+
 
 
 
