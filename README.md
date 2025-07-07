@@ -76,6 +76,33 @@ https://eips.ethereum.org/erc
 Go through the methods of ERC-20
 https://eips.ethereum.org/EIPS/eip-20
 
+## Create Token from imports
+
+Go to Openzepplin
+https://docs.openzeppelin.com/contracts/5.x/
+
+Install OpenZepplin
+https://github.com/OpenZeppelin/openzeppelin-contracts
+
+
+```shell
+$ forge install openZeppelin/openzeppelin-contracts@v5.0.2
+```
+Or 
+
+
+```shell
+$ forge install openZeppelin/Openzeppelin-contracts
+```
+Now we can see ERC20.sol here
+(lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol)
+
+
+Another repository is Solmate
+
+https://github.com/transmissions11/solmate
+
+Then do remappings in foundry.toml
 
 
 
